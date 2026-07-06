@@ -4,15 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- internal css -->
+
+    <style>
+
+        /* tag selector.ടാഗ് nde  name അത്പോലെ സെലക്ട് ചെയ്യുക  */
+        /* h2 {
+            color: red;
+        }
+        p {
+            color: darkmagenta;
+        } */
+
+        /* id selector */
+        /* #head-2{
+            color:green;
+            font-size: 40px;
+        } */
+
+        /* class selector */
+        /* .theme-font{
+            color: brown;
+            text-align: center;
+        } */
+
+    </style>
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
     <!-- HEADING TAGS -->
-    <H1>Heading 1</H1>
+
+    <!-- inline css -> add ->style attribute -->
+    
+    <H1 style="color: blue;">Heading 1</H1>
     <H2>Heading 2</H2>
-    <H3>Heading 3</H3>
+    <H2 id="head-2">Heading 2</H2>
+    <H3 class="theme-font">Heading 3</H3>
     <H4>Heading 4</H4>
     <H5>Heading 5</H5>
-    <H6>Heading 6</H6>
+    <H6 class="theme-font">Heading 6</H6>
 
     <!-- Paragraph . Paired tags -->
 
@@ -84,7 +115,35 @@
                 <td>row 3</td>
             </tr>
          </table>
-         <!-- semantic tags -->
+
+         <!-- semantic tags artham manassilakunnath  -->
+          <section></section>
+          <article></article>
+          <br>
+
+          <form>
+            <label for="name">Name :</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+            <label for="pswd">Password :</label>
+            <input id="pswd" type="password" placeholder="Enter your password" required>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter your mail id" required>
+            
+            <label for="mail">
+                Mail :
+            </label>
+            <input type="radio" name="gender" value="male">
+             
+            <label for="femail">
+                Femail :
+            </label>
+            <input type="radio" name="gender" value="female">
+
+            <!-- checkbox -->
+             <label>Please accept :</label>
+             <input type="checkbox" value="">
+            <button>Register now</button>
+          </form>
 
 </body>
 </html>
