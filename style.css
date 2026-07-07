@@ -16,3 +16,29 @@ h2 {
             color: brown;
             text-align: center;
         }
+        .card-img-1{
+            width: 100%;
+            border-top-left-radius: 30%;
+            border-bottom-right-radius: 30%;
+        }
+        .card-img-2{
+             width: 100%;
+            border-radius:10px;
+        }
+        h3{
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 700;
+        }
+        .card-details{
+            font-family: "Roboto", sans-serif;
+            line-height:18px;
+        }
+.card{
+    border: 3px solid brown;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 10px;
+
+
+}
